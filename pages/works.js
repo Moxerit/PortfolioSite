@@ -8,8 +8,8 @@ import dyscontract from '../public/images/dystcontract.webp'
 import remcontract from '../public/images/remcontract.webp'
 import seattle from '../public/images/Seattle_toy1.webp'
 import helmet from '../public/images/helmet.webp'
-import nftscroller from '../public/images/nftscroller.webp'
-import dashboard from '../public/images/mbd.webp'
+// import nftscroller from '../public/images/nftscroller.webp'
+// import dashboard from '../public/images/mbd.webp'
 import car from '../public/images/car.webp'
 
 const Works = () => (
@@ -25,16 +25,6 @@ const Works = () => (
             My homeade NFT project focused on enviornmental stylized depiction.
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem
-            id="dashboard"
-            title="Dashboard"
-            thumbnail={dashboard}
-          >
-            Moby Dashboard, implementation of a wallet tracker for transactions of nfts.
-          </WorkGridItem>
-        </Section>
-
         <Section delay={0.1}>
           <WorkGridItem
             id="car"
@@ -44,32 +34,25 @@ const Works = () => (
             Prototype concept of renting a vehicle on Avalanche Fuji test-net. 
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="nftscroller" thumbnail={nftscroller} title="NFT-Scroller">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
       </SimpleGrid>
 
       <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Contracts
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="dyscontract" thumbnail={dyscontract} title="Dystopia Contract">
-            A website of the elite app development and contracting agency based
-            in Austria
+            Utilizing my batch minting process, new improved mint security, and implementation of ERC721A.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="remcontract" thumbnail={remcontract} title="Remillio Contract">
-            A VR Creative tools for fashion brands
+            Contract designed for 1:1 exchange for mints, free mints for certain NFT holders, and incremental pricing. 
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -78,20 +61,19 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          3D Models
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="seattle" thumbnail={seattle} title="Seattle Space Needle">
-            Twitter client app for iPhone Safari
+            Seattle Space Needle toy render, was a study project for emulating plastic toys.
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem id="helmet" thumbnail={helmet} title="Gueira's Helmet">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+            Printable helmet for props or cosplay.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
