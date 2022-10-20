@@ -31,7 +31,7 @@ const Works = () => (
             title="Dashboard"
             thumbnail={dashboard}
           >
-            Moby Dashboard, implementation of a wallet tracker " for transactions of nfts.
+            Moby Dashboard, implementation of a wallet tracker for transactions of nfts.
           </WorkGridItem>
         </Section>
 
