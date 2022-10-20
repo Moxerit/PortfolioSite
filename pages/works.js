@@ -28,10 +28,10 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="dashboard"
-            title="dashboard"
+            title="Dashboard"
             thumbnail={dashboard}
           >
-            Dashboard
+            Moby Dashboard, implementation of a wallet tracker " for transactions of nfts.
           </WorkGridItem>
         </Section>
 
