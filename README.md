@@ -16,4 +16,4 @@ Add a link to
 
    or
 
-- [This repo](https://github.com/Moxerit/mox-portfolio)
+- [This repo](https://github.com/Moxerit/PortfolioSite)
