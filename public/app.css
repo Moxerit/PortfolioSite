@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.css-onkibi {
+  color: #A82428 !important;
+  border: #A82428 !important;
+  line-height: 30px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.css-1ieeump {
+
+  background: #0e151a !important;
+  
+}
+
+.css-1ye12qe:active, .css-1ye12qe[data-active] {
+  background: #0e151a !important;
+  border: 2px dotted #A82428 !important;
+}
+
+.css {
+  background: #070B0D !important;
+  color: #ffffff !important;
+}

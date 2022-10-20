@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Moxerit's Homepage\r https://www.moxerit.com/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Chase",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/avatar": "^2.1.1",
+    "@chakra-ui/icons": "^2.0.8",
+    "@chakra-ui/react": "^2.3.6",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "emotion-theming": "^11.0.0",
+    "framer-motion": "^7.6.1",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-tsparticles": "^2.3.3",
+    "three": "^0.143.0",
+    "tsparticles": "^2.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "prettier": "^2.7.1"
+  }
+}
