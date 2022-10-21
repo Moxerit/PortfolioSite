@@ -13,7 +13,7 @@ import Layout from '../components/layouts/article'
 const Home = () => (
   <Layout>
   <Container minW={["90vw", "90vw", "90vw", "90vw", "70vw"]} >
-      <Box borderRadius="lg" bg="transparent" p={10} w={"100%"} mh={"30vh"} mt={[22, 36]} align="center">
+      <Box borderRadius="lg" bg="transparent" p={10} w={"100%"} mh={"30vh"} mt={[22, 22, 36]} align="center">
         <Box 
         display="flex"
         textAlign="center"

@@ -6,7 +6,7 @@ const particlesConfig = {
   },
   particles: {
     number: {
-      value: 150,
+      value: 70,
       density: {
         enable: false,
         area: 1000
@@ -42,8 +42,8 @@ const particlesConfig = {
       }
     },
     size: {
-      value: 3.5,
-      minimumvalue: 2.5,
+      value: 1,
+      minimumvalue: 1,
       random: true,
       animation: {
         enable: false,
@@ -54,14 +54,14 @@ const particlesConfig = {
     },
     links: {
       enable: true,
-      distance: 150,
+      distance: 100,
       color: "random",
       blink: false,
       consent: false,
       opacity: 0.5,
       width: 2,
       triangles: {
-        enable: false,
+        enable: true,
         opacity: 0.05
       }
     },
