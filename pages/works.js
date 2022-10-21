@@ -10,7 +10,7 @@ import seattle from '../public/images/Seattle_toy1.webp'
 import helmet from '../public/images/helmet.webp'
 // import nftscroller from '../public/images/nftscroller.webp'
 // import dashboard from '../public/images/mbd.webp'
-import car from '../public/images/car.webp'
+import car from '../public/images/car.png'
 
 const Works = () => (
   <Layout title="Works">

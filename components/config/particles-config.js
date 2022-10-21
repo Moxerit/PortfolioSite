@@ -54,7 +54,7 @@ const particlesConfig = {
     },
     links: {
       enable: true,
-      distance: 200,
+      distance: 150,
       color: "random",
       blink: false,
       consent: false,
@@ -66,7 +66,7 @@ const particlesConfig = {
       }
     },
     move: {
-      warp: true,
+      warp: false,
       enable: true,
       speed: 3,
       direction: "none",
@@ -81,26 +81,32 @@ const particlesConfig = {
     }
   },
   interactivity: {
-    detectsOn: "canvas",
+    detectsOn: "window",
     events: {
-      onHover: {
-        enable: false,
-        mode: ""
-      },
       onClick: {
         enable: false,
         mode: ""
-      }
+      },
+      onHover: {
+        enable: true,
+        mode: "",
+        parallax: {
+          enable: true,
+          force: 10,
+          smooth: 15
+        }
+      },
+      
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 50,
         links: {
           opacity: 1
         }
       },
       connect: {
-        radius: 1500
+        radius: 20
       },
       bubble: {
         distance: 400,

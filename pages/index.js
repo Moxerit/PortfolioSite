@@ -13,7 +13,7 @@ import Layout from '../components/layouts/article'
 const Home = () => (
   <Layout>
   <Container minW={["90vw", "90vw", "90vw", "90vw", "70vw"]} >
-      <Box borderRadius="lg" bg="#0e151a" p={10} w={"100%"} mh={"30vh"} mt={36} align="center">
+      <Box borderRadius="lg" bg="transparent" p={10} w={"100%"} mh={"30vh"} mt={[22, 36]} align="center">
         <Box 
         display="flex"
         textAlign="center"
@@ -21,7 +21,7 @@ const Home = () => (
         mb={6}
         mt={3}
         >
-          <Avatar display={{base: 'none', md : 'flex'}} h="10em" w="10em" background="#0e151a" p={1} mr={4} size='xxl' name='Chase Alber' src="https://i.imgur.com/vDg2giC.jpg" />
+          <Avatar display={{base: 'none', md : 'flex'}} h="10em" w="10em" background="transparent" p={1} mr={4} size='xxl' name='Chase Alber' src="https://i.imgur.com/vDg2giC.jpg" />
           <Paragraph>
           Chase is a 3D modeler, solidity wizard, and full-stack developer located
           out in the mountains of Montana. His interest spans wide and enjoys being able
