@@ -93,8 +93,9 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
+            
             Source
+            <IoLogoGithub />
           </LinkItem>
           {/* <LinkItem _hover={{textDecoration: "none !important", background: "#A82428", textColor: "#0e151a"  }}  border={"2px solid #A82428"} borderRadius={"25px"}  href="/connect" path={path}>
             Connect

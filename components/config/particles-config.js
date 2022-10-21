@@ -42,7 +42,7 @@ const particlesConfig = {
       }
     },
     size: {
-      value: 1,
+      value: 2,
       minimumvalue: 1,
       random: true,
       animation: {
@@ -54,7 +54,7 @@ const particlesConfig = {
     },
     links: {
       enable: true,
-      distance: 100,
+      distance: 130,
       color: "random",
       blink: false,
       consent: false,
