@@ -81,6 +81,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
+          <LinkItem href="https://www.moxo.jp/" target="_blank">
+            Blog
+          </LinkItem>
           {/* <LinkItem href="/snippets" path={path}>
             Snippets
           </LinkItem> */}
