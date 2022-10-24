@@ -21,13 +21,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="dystopia" title="Dystopia.Earth" thumbnail={dystopia}>
+          <WorkGridItem id="https://www.dystopia.earth" title="Dystopia.Earth" thumbnail={dystopia}>
             My homeade NFT project focused on enviornmental stylized depiction.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem
-            id="car"
+            id="https://magenta-sorbet-e59544.netlify.app/"
             title="Car Renting DAPP"
             thumbnail={car}
           >
@@ -46,12 +46,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="dyscontract" thumbnail={dyscontract} title="Dystopia Contract">
+          <WorkGridItem id="https://etherscan.io/address/0x3bb88d05d5fddf5f5036c3edd67864244e90358b#code" thumbnail={dyscontract} title="Dystopia Contract">
             Utilizing my batch minting process, new improved mint security, and implementation of ERC721A.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="remcontract" thumbnail={remcontract} title="Remillio Contract">
+          <WorkGridItem id="https://www.moxerit.com/works" thumbnail={remcontract} title="Remillio Contract">
             Contract designed for 1:1 exchange for mints, free mints for certain NFT holders, and incremental pricing. 
           </WorkGridItem>
         </Section>
@@ -67,12 +67,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="seattle" thumbnail={seattle} title="Seattle Space Needle">
+          <WorkGridItem id="https://www.moxerit.com/works" thumbnail={seattle} title="Seattle Space Needle">
             Seattle Space Needle toy render, was a study project for emulating plastic toys.
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
-          <WorkGridItem id="helmet" thumbnail={helmet} title="Gueira's Helmet">
+          <WorkGridItem id="https://www.moxerit.com/works" thumbnail={helmet} title="Gueira's Helmet">
             Printable helmet for props or cosplay.
           </WorkGridItem>
         </Section>
