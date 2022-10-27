@@ -138,12 +138,16 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
+                <NextLink href="https://www.moxo.jp/" target="_blank" passHref>
+                  <MenuItem as={Link}>Blog</MenuItem>
+                </NextLink>
                 {/* <NextLink href="/snippets" passHref>
                   <MenuItem as={Link}>Snippets</MenuItem>
                 </NextLink> */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/Moxerit/Portfolio"
+                  target="_blank"
                 >
                   View Source
                 </MenuItem>
