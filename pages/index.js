@@ -23,8 +23,10 @@ const Home = () => (
         >
           <Avatar display={{base: 'none', md : 'flex'}} h="10em" w="10em" background="transparent" p={1} mr={4} size='xxl' name='Chase Alber' src="https://i.imgur.com/vDg2giC.jpg" />
           <Paragraph>
-          Hey there! My name is Chase and I am a developer focused on full-stack, web3, and mobile applications. I spend my free time modeling props in Blender or slinging dries on the Missouri river.
-          I am currently building up my blog for Japanese artists and developers in the web3 workspace.
+          Hey there! My name is Chase and I am a developer focused on full-stack development and oddities. 
+          I spend my free time modeling props in Blender, slinging dries on the Missouri river, 
+          or building props for costumes.
+          Currently expanding my blog that provides translated articles for Japanese developers and artists in web3 development.
           </Paragraph>
           
           

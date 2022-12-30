@@ -4,8 +4,6 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import dystopia from '../public/images/dys.webp'
-import dyscontract from '../public/images/dystcontract.webp'
-import remcontract from '../public/images/remcontract.webp'
 import seattle from '../public/images/Seattle_toy1.webp'
 import helmet from '../public/images/helmet.webp'
 // import nftscroller from '../public/images/nftscroller.webp'
@@ -19,7 +17,7 @@ const Works = () => (
         Works
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={10}>
         <Section>
           <WorkGridItem id="https://www.dystopia.earth" title="Dystopia.Earth" thumbnail={dystopia}>
             My homeade NFT project focused on enviornmental stylized depiction.
@@ -36,27 +34,6 @@ const Works = () => (
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Contracts
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="https://etherscan.io/address/0x3bb88d05d5fddf5f5036c3edd67864244e90358b#code" thumbnail={dyscontract} title="Dystopia Contract">
-            Utilizing my batch minting process, new improved mint security, and implementation of ERC721A.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="https://www.moxerit.com/works" thumbnail={remcontract} title="Remillio Contract">
-            Contract designed for 1:1 exchange for mints, free mints for certain NFT holders, and incremental pricing. 
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
       <Section delay={0.4}>
         <Divider my={6} />
 
@@ -65,7 +42,7 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={10}>
         <Section delay={0.5}>
           <WorkGridItem id="https://www.moxerit.com/works" thumbnail={seattle} title="Seattle Space Needle">
             Seattle Space Needle toy render, was a study project for emulating plastic toys.
